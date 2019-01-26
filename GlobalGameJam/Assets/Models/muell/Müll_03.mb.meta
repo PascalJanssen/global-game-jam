@@ -1,93 +1,9 @@
 fileFormatVersion: 2
-guid: 7458b72b8988eff419e4208cc9706934
+guid: beaba2484b38cb049b78c108ef7b57f6
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: bear_body
-    100002: bear_eye
-    100004: bear_head
-    100006: bear_mouth
-    100008: body
-    100010: head
-    100012: hip
-    100014: l_ear
-    100016: l_ear 1
-    100018: l_eartop
-    100020: l_foot
-    100022: l_knee
-    100024: l_leg
-    100026: //RootNode
-    100028: pSphere1
-    100030: pSphere2
-    100032: pSphere3
-    100034: pSphere4
-    100036: pSphere5
-    100038: pSphere6
-    100040: r_arm
-    100042: r_ear
-    100044: r_ear 1
-    100046: r_eartop
-    100048: r_elbow
-    100050: r_foot
-    100052: r_hand
-    100054: r_knee
-    100056: r_leg
-    400000: bear_body
-    400002: bear_eye
-    400004: bear_head
-    400006: bear_mouth
-    400008: body
-    400010: head
-    400012: hip
-    400014: l_ear
-    400016: l_ear 1
-    400018: l_eartop
-    400020: l_foot
-    400022: l_knee
-    400024: l_leg
-    400026: //RootNode
-    400028: pSphere1
-    400030: pSphere2
-    400032: pSphere3
-    400034: pSphere4
-    400036: pSphere5
-    400038: pSphere6
-    400040: r_arm
-    400042: r_ear
-    400044: r_ear 1
-    400046: r_eartop
-    400048: r_elbow
-    400050: r_foot
-    400052: r_hand
-    400054: r_knee
-    400056: r_leg
-    2100000: lambert1
-    4300000: bear_body
-    4300002: bear_head
-    4300004: bear_mouth
-    4300006: r_ear
-    4300008: l_ear
-    4300010: bear_eye
-    4300012: pSphere6
-    4300014: pSphere5
-    4300016: pSphere4
-    4300018: pSphere3
-    4300020: pSphere2
-    4300022: pSphere1
-    7400000: Take 001
-    9500000: //RootNode
-    13700000: bear_body
-    13700002: bear_eye
-    13700004: bear_head
-    13700006: bear_mouth
-    13700008: l_ear
-    13700010: pSphere1
-    13700012: pSphere2
-    13700014: pSphere3
-    13700016: pSphere4
-    13700018: pSphere5
-    13700020: pSphere6
-    13700022: r_ear
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -140,10 +56,10 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
-    normalSmoothAngle: 0
+    normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
