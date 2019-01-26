@@ -9,8 +9,6 @@ public class PlayerMovementController : MonoBehaviour
     public float movementSpeed;
     public float rotationSpeed;
 
-    public Transform PlayerModel;
-
     private Rigidbody rigidbody;
     private Vector3 groundMovement;
     private Vector3 rotation;
@@ -18,7 +16,7 @@ public class PlayerMovementController : MonoBehaviour
     private ConstantForce gravity;
 
     private bool isWalkingOnWall = false;
-    private bool suctionCup = true;
+    private bool suctionCup = false;
 
     // Start is called before the first frame update
     void Start()
@@ -32,28 +30,31 @@ public class PlayerMovementController : MonoBehaviour
         if (suctionCup)
         {
             rigidbody.useGravity = false;
-            gravityDirection = PlayerModel.forward * 9.81f;
-            PlayerModel.Rotate(new Vector3(90, 0, 0), Space.Self);
+            gravityDirection = transform.forward * 9.81f;
+            transform.Translate(Vector3.up * 0.5f);
+            transform.Rotate(Vector3.right * -1, 90);
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 move = transform.forward * Input.GetAxis("Vertical");
+        Vector3 move = Vector3.forward * Input.GetAxis("Vertical");
 
-        float xRotation = Input.GetAxis("Horizontal") * rotationSpeed;
+        float yRotation = Input.GetAxis("Horizontal") * rotationSpeed;
 
         groundMovement = move * movementSpeed;
 
-        rotation = new Vector3(0, xRotation, 0);
+        rotation = new Vector3(0, yRotation, 0);
 
         if (Input.GetButtonDown("suction") && !suctionCup)
         {
+            Debug.Log("suction on");
             suctionCup = true;
         }
         else if (Input.GetButtonDown("suction") && suctionCup)
         {
+            Debug.Log("suction off");
             suctionCup = false;
         }
     }
@@ -61,7 +62,7 @@ public class PlayerMovementController : MonoBehaviour
     private void FixedUpdate()
     {
         gravity.force = gravityDirection;
-        rigidbody.velocity = groundMovement * Time.fixedDeltaTime;
+        rigidbody.transform.Translate(groundMovement * Time.fixedDeltaTime);
         transform.Rotate(rotation, Space.Self);
     }
 }

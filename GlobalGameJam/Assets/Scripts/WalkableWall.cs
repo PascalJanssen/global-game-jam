@@ -17,6 +17,7 @@ public class WalkableWall : MonoBehaviour
     {
         if (other.CompareTag("walkable"))
         {
+            Debug.Log("triggered");
             controller.WallIsWalkable(other);
         }
     }
