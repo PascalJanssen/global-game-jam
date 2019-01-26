@@ -1,0 +1,1024 @@
+atomVersion 1.0;
+mayaVersion 2018;
+mayaSceneFile C:/Users/mulle/Documents/GitHub/global-game-jam/GlobalGameJam/Assets/Models/GGJ_Charactermodel/scenes/robo_GGJ.mb;
+timeUnit film;
+linearUnit cm;
+angularUnit deg;
+startTime 1;
+endTime 24;
+dagNode {
+  joint1 1 4;
+  anim scale.scaleX scaleX 0;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1 auto auto 1 0 0;
+    }
+  }
+  anim scale.scaleY scaleY 1;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1 auto auto 1 0 0;
+    }
+  }
+  anim scale.scaleZ scaleZ 2;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1 auto auto 1 0 0;
+    }
+  }
+  anim rotate.rotateX rotateX 3;
+  animData {
+    input time;
+    output angular;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0 auto auto 1 0 0;
+    }
+  }
+  anim rotate.rotateY rotateY 4;
+  animData {
+    input time;
+    output angular;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0 auto auto 1 0 0;
+    }
+  }
+  anim rotate.rotateZ rotateZ 5;
+  animData {
+    input time;
+    output angular;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0 auto auto 1 0 0;
+    }
+  }
+  anim visibility visibility 6;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1 spline step 1 0 0;
+    }
+  }
+  anim translate.translateX translateX 7;
+  animData {
+    input time;
+    output linear;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0 auto auto 1 0 0;
+    }
+  }
+  anim translate.translateY translateY 8;
+  animData {
+    input time;
+    output linear;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 3.7787961 auto auto 1 0 0;
+    }
+  }
+  anim translate.translateZ translateZ 9;
+  animData {
+    input time;
+    output linear;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0.01947833 auto auto 1 0 0;
+    }
+  }
+}
+dagNode {
+  joint2 2 2;
+  static rotate.rx rotateX 0;
+  { 0 }
+  static rotate.ry rotateY 1;
+  { 0 }
+  static rotate.rz rotateZ 2;
+  { 0 }
+  static scale.sx scaleX 3;
+  { 1 }
+  static scale.sy scaleY 4;
+  { 1 }
+  static scale.sz scaleZ 5;
+  { 1 }
+  static translate.tx translateX 6;
+  { 1.5583882 }
+  static translate.ty translateY 7;
+  { -1.2143064e-16 }
+  static translate.tz translateZ 8;
+  { 3.4603168e-16 }
+  static v visibility 9;
+  { 1 }
+}
+dagNode {
+  joint3 3 1;
+  anim scale.scaleX scaleX 0;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1 auto auto 1 0 0;
+      6 1 auto auto 1 0 0;
+      12 1 auto auto 1 0 0;
+      18 1 auto fixed 1 0 0 0 1;
+      24 1 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim scale.scaleY scaleY 1;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1 auto auto 1 0 0;
+      6 1 auto auto 1 0 0;
+      12 1 auto auto 1 0 0;
+      18 1 auto fixed 1 0 0 0 1;
+      24 1 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim scale.scaleZ scaleZ 2;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1 auto auto 1 0 0;
+      6 1 auto auto 1 0 0;
+      12 1 auto auto 1 0 0;
+      18 0.33106351 auto fixed 1 0 0 0 1;
+      24 1 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim rotate.rotateX rotateX 3;
+  animData {
+    input time;
+    output angular;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0 auto auto 1 0 0;
+      6 0 auto auto 1 0 0;
+      12 0 auto auto 1 0 0;
+      18 0 auto fixed 1 0 0 0 1;
+      24 0 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim rotate.rotateY rotateY 4;
+  animData {
+    input time;
+    output angular;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0 auto auto 1 0 0;
+      6 -19.593504 auto auto 1 0 0;
+      12 5.9096994 auto auto 1 0 0;
+      18 -18.924568 auto fixed 1 0 0 0 1;
+      24 5.9096994 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim rotate.rotateZ rotateZ 5;
+  animData {
+    input time;
+    output angular;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0 auto auto 1 0 0;
+      6 0 auto auto 1 0 0;
+      12 0 auto auto 1 0 0;
+      18 0 auto fixed 1 0 0 0 1;
+      24 0 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim visibility visibility 6;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1 spline step 1 0 0;
+      6 1 spline step 1 0 0;
+      12 1 spline step 1 0 0;
+      18 1 spline step 1 0 0;
+      24 1 fixed step 1 0 0 0 1;
+    }
+  }
+  anim translate.translateX translateX 7;
+  animData {
+    input time;
+    output linear;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1.1767878 auto auto 1 0 0;
+      6 1.1767878 auto auto 1 0 0;
+      12 1.1767878 auto auto 1 0 0;
+      18 1.1767878 auto fixed 1 0 0 0 1;
+      24 1.1767878 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim translate.translateY translateY 8;
+  animData {
+    input time;
+    output linear;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0 auto auto 1 0 0;
+      6 0 auto auto 1 0 0;
+      12 0 auto auto 1 0 0;
+      18 0 auto fixed 1 0 0 0 1;
+      24 0 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim translate.translateZ translateZ 9;
+  animData {
+    input time;
+    output linear;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0 auto auto 1 0 0;
+      6 0 auto auto 1 0 0;
+      12 0 auto auto 1 0 0;
+      18 0 auto fixed 1 0 0 0 1;
+      24 0 fixed auto 1 0 0 0 1;
+    }
+  }
+}
+dagNode {
+  joint23 3 1;
+  anim scale.scaleX scaleX 0;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1 auto auto 1 0 0;
+      6 1 auto auto 1 0 0;
+      12 1 auto auto 1 0 0;
+      18 1 auto auto 1 0 0;
+      24 1 fixed fixed 1 0 0 0 1 0 1;
+    }
+  }
+  anim scale.scaleY scaleY 1;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1 auto auto 1 0 0;
+      6 1 auto auto 1 0 0;
+      12 1 auto auto 1 0 0;
+      18 1 auto auto 1 0 0;
+      24 1 fixed fixed 1 0 0 0 1 0 1;
+    }
+  }
+  anim scale.scaleZ scaleZ 2;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1 auto auto 1 0 0;
+      6 1 auto auto 1 0 0;
+      12 1 auto auto 1 0 0;
+      18 1 auto auto 1 0 0;
+      24 1 fixed fixed 1 0 0 0 1 0 1;
+    }
+  }
+  anim rotate.rotateX rotateX 3;
+  animData {
+    input time;
+    output angular;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0 auto auto 1 0 0;
+      6 0 auto auto 1 0 0;
+      12 0 auto auto 1 0 0;
+      18 0 auto auto 1 0 0;
+      24 0 fixed fixed 1 0 0 0 1 0 1;
+    }
+  }
+  anim rotate.rotateY rotateY 4;
+  animData {
+    input time;
+    output angular;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0 auto auto 1 0 0;
+      6 10.068023 auto auto 1 0 0;
+      12 -10.130046 auto auto 1 0 0;
+      18 12.247575 auto auto 1 0 0;
+      24 -10.130046 fixed fixed 1 0 0 0 1 0 1;
+    }
+  }
+  anim rotate.rotateZ rotateZ 5;
+  animData {
+    input time;
+    output angular;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0 auto auto 1 0 0;
+      6 0 auto auto 1 0 0;
+      12 0 auto auto 1 0 0;
+      18 0 auto auto 1 0 0;
+      24 0 fixed fixed 1 0 0 0 1 0 1;
+    }
+  }
+  anim visibility visibility 6;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1 spline step 1 0 0;
+      6 1 spline step 1 0 0;
+      12 1 spline step 1 0 0;
+      18 1 spline step 1 0 0;
+      24 1 fixed step 1 0 0 0 1;
+    }
+  }
+  anim translate.translateX translateX 7;
+  animData {
+    input time;
+    output linear;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 -0.63449925 auto auto 1 0 0;
+      6 -0.63449925 auto auto 1 0 0;
+      12 -0.63449925 auto auto 1 0 0;
+      18 -0.63449925 auto auto 1 0 0;
+      24 -0.63449925 fixed fixed 1 0 0 0 1 0 1;
+    }
+  }
+  anim translate.translateY translateY 8;
+  animData {
+    input time;
+    output linear;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 -0.99107941 auto auto 1 0 0;
+      6 -0.99107941 auto auto 1 0 0;
+      12 -0.99107941 auto auto 1 0 0;
+      18 -0.99107941 auto auto 1 0 0;
+      24 -0.99107941 fixed fixed 1 0 0 0 1 0 1;
+    }
+  }
+  anim translate.translateZ translateZ 9;
+  animData {
+    input time;
+    output linear;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0 auto auto 1 0 0;
+      6 0 auto auto 1 0 0;
+      12 0 auto auto 1 0 0;
+      18 0 auto auto 1 0 0;
+      24 0 fixed fixed 1 0 0 0 1 0 1;
+    }
+  }
+}
+dagNode {
+  joint5 2 1;
+  anim scale.scaleX scaleX 0;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1 auto auto 1 0 0;
+      6 1 auto auto 1 0 0;
+      12 1 auto auto 1 0 0;
+      18 1 auto fixed 1 0 0 0 1;
+      24 1 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim scale.scaleY scaleY 1;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1 auto auto 1 0 0;
+      6 1 auto auto 1 0 0;
+      12 1 auto auto 1 0 0;
+      18 1 auto fixed 1 0 0 0 1;
+      24 1 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim scale.scaleZ scaleZ 2;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1 auto auto 1 0 0;
+      6 1 auto auto 1 0 0;
+      12 1 auto auto 1 0 0;
+      18 1 auto fixed 1 0 0 0 1;
+      24 1 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim visibility visibility 3;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1 spline step 1 0 0;
+      6 1 spline step 1 0 0;
+      12 1 spline step 1 0 0;
+      18 1 spline step 1 0 0;
+      24 1 fixed step 1 0 0 0 1;
+    }
+  }
+  anim translate.translateX translateX 4;
+  animData {
+    input time;
+    output linear;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0.16218682 auto auto 1 0 0;
+      6 0.16218682 auto auto 1 0 0;
+      12 0.16218682 auto auto 1 0 0;
+      18 0.16218682 auto fixed 1 0 0 0 1;
+      24 0.16218682 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim translate.translateY translateY 5;
+  animData {
+    input time;
+    output linear;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1.8418143 auto auto 1 0 0;
+      6 1.8418143 auto auto 1 0 0;
+      12 1.8418143 auto auto 1 0 0;
+      18 1.8418143 auto fixed 1 0 0 0 1;
+      24 1.8418143 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim translate.translateZ translateZ 6;
+  animData {
+    input time;
+    output linear;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0 auto auto 1 0 0;
+      6 0 auto auto 1 0 0;
+      12 0 auto auto 1 0 0;
+      18 0 auto fixed 1 0 0 0 1;
+      24 0 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim rotate.rotateX rotateX 7;
+  animData {
+    input time;
+    output angular;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0 auto auto 1 0 0;
+      6 21.262583 auto auto 1 0 0;
+      12 -6.3781108 auto auto 1 0 0;
+      18 21.262583 auto fixed 1 0 0 0 1;
+      24 -6.3781108 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim rotate.rotateY rotateY 8;
+  animData {
+    input time;
+    output angular;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0 auto auto 1 0 0;
+      6 0 auto auto 1 0 0;
+      12 0 auto auto 1 0 0;
+      18 0 auto fixed 1 0 0 0 1;
+      24 0 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim rotate.rotateZ rotateZ 9;
+  animData {
+    input time;
+    output angular;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 -40.81736 auto auto 1 0 0;
+      6 -40.81736 auto auto 1 0 0;
+      12 -40.81736 auto auto 1 0 0;
+      18 -40.81736 auto fixed 1 0 0 0 1;
+      24 -40.81736 fixed auto 1 0 0 0 1;
+    }
+  }
+}
+dagNode {
+  joint7 2 0;
+  anim rotate.rotateX rotateX 0;
+  animData {
+    input time;
+    output angular;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0 auto auto 1 0 0;
+      6 -0.57678353 auto auto 1 0 0;
+      12 1.3338651 auto auto 1 0 0;
+      18 -0.57678353 auto fixed 1 0 0 0 1;
+      24 1.3338651 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim rotate.rotateY rotateY 1;
+  animData {
+    input time;
+    output angular;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0 auto auto 1 0 0;
+      6 0 auto auto 1 0 0;
+      12 0 auto auto 1 0 0;
+      18 0 auto fixed 1 0 0 0 1;
+      24 0 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim rotate.rotateZ rotateZ 2;
+  animData {
+    input time;
+    output angular;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0.85993372 auto auto 1 0 0;
+      6 0.85993372 auto auto 1 0 0;
+      12 0.85993372 auto auto 1 0 0;
+      18 0.85993372 auto fixed 1 0 0 0 1;
+      24 0.85993372 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim visibility visibility 3;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1 spline step 1 0 0;
+      6 1 spline step 1 0 0;
+      12 1 spline step 1 0 0;
+      18 1 spline step 1 0 0;
+      24 1 fixed step 1 0 0 0 1;
+    }
+  }
+  anim translate.translateX translateX 4;
+  animData {
+    input time;
+    output linear;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 -2.4217093 auto auto 1 0 0;
+      6 -2.4217093 auto auto 1 0 0;
+      12 -2.4217093 auto auto 1 0 0;
+      18 -2.4217093 auto fixed 1 0 0 0 1;
+      24 -2.4217093 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim translate.translateY translateY 5;
+  animData {
+    input time;
+    output linear;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 -0.0092734214 auto auto 1 0 0;
+      6 -0.0092734214 auto auto 1 0 0;
+      12 -0.0092734214 auto auto 1 0 0;
+      18 -0.0092734214 auto fixed 1 0 0 0 1;
+      24 -0.0092734214 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim translate.translateZ translateZ 6;
+  animData {
+    input time;
+    output linear;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0 auto auto 1 0 0;
+      6 0 auto auto 1 0 0;
+      12 0 auto auto 1 0 0;
+      18 0 auto fixed 1 0 0 0 1;
+      24 0 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim scale.scaleX scaleX 7;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1 auto auto 1 0 0;
+      6 1 auto auto 1 0 0;
+      12 1 auto auto 1 0 0;
+      18 1 auto fixed 1 0 0 0 1;
+      24 1 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim scale.scaleY scaleY 8;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1 auto auto 1 0 0;
+      6 1 auto auto 1 0 0;
+      12 1 auto auto 1 0 0;
+      18 1 auto fixed 1 0 0 0 1;
+      24 1 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim scale.scaleZ scaleZ 9;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1 auto auto 1 0 0;
+      6 1 auto auto 1 0 0;
+      12 1 auto auto 1 0 0;
+      18 1 auto fixed 1 0 0 0 1;
+      24 1 fixed auto 1 0 0 0 1;
+    }
+  }
+}
+dagNode {
+  joint20 2 1;
+  anim scale.scaleX scaleX 0;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1 auto auto 1 0 0;
+      6 1 auto auto 1 0 0;
+      12 1 auto auto 1 0 0;
+      18 1 auto fixed 1 0 0 0 1;
+      24 1 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim scale.scaleY scaleY 1;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1 auto auto 1 0 0;
+      6 1 auto auto 1 0 0;
+      12 1 auto auto 1 0 0;
+      18 1 auto fixed 1 0 0 0 1;
+      24 1 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim scale.scaleZ scaleZ 2;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1 auto auto 1 0 0;
+      6 1 auto auto 1 0 0;
+      12 1 auto auto 1 0 0;
+      18 1 auto fixed 1 0 0 0 1;
+      24 1 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim rotate.rotateX rotateX 3;
+  animData {
+    input time;
+    output angular;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0 auto auto 1 0 0;
+      6 -23.884794 auto auto 1 0 0;
+      12 12.093583 auto auto 1 0 0;
+      18 -23.884794 auto fixed 1 0 0 0 1;
+      24 12.093583 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim rotate.rotateY rotateY 4;
+  animData {
+    input time;
+    output angular;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0 auto auto 1 0 0;
+      6 0 auto auto 1 0 0;
+      12 0 auto auto 1 0 0;
+      18 0 auto fixed 1 0 0 0 1;
+      24 0 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim rotate.rotateZ rotateZ 5;
+  animData {
+    input time;
+    output angular;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 44.404392 auto auto 1 0 0;
+      6 44.404392 auto auto 1 0 0;
+      12 44.404392 auto auto 1 0 0;
+      18 44.404392 auto fixed 1 0 0 0 1;
+      24 44.404392 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim visibility visibility 6;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1 spline step 1 0 0;
+      6 1 spline step 1 0 0;
+      12 1 spline step 1 0 0;
+      18 1 spline step 1 0 0;
+      24 1 fixed step 1 0 0 0 1;
+    }
+  }
+  anim translate.translateX translateX 7;
+  animData {
+    input time;
+    output linear;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0.11610079 auto auto 1 0 0;
+      6 0.11610079 auto auto 1 0 0;
+      12 0.11610079 auto auto 1 0 0;
+      18 0.11610079 auto fixed 1 0 0 0 1;
+      24 0.11610079 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim translate.translateY translateY 8;
+  animData {
+    input time;
+    output linear;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 -1.8452936 auto auto 1 0 0;
+      6 -1.8452936 auto auto 1 0 0;
+      12 -1.8452936 auto auto 1 0 0;
+      18 -1.8452936 auto fixed 1 0 0 0 1;
+      24 -1.8452936 fixed auto 1 0 0 0 1;
+    }
+  }
+  anim translate.translateZ translateZ 9;
+  animData {
+    input time;
+    output linear;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0 auto auto 1 0 0;
+      6 0 auto auto 1 0 0;
+      12 0 auto auto 1 0 0;
+      18 0 auto fixed 1 0 0 0 1;
+      24 0 fixed auto 1 0 0 0 1;
+    }
+  }
+}
+dagNode {
+  joint20|joint6 3 1;
+  static rotate.rx rotateX 0;
+  { -32.568933 }
+  static rotate.ry rotateY 1;
+  { 0 }
+  static rotate.rz rotateZ 2;
+  { 0 }
+  static scale.sx scaleX 3;
+  { 1 }
+  static scale.sy scaleY 4;
+  { 1 }
+  static scale.sz scaleZ 5;
+  { 1 }
+  static translate.tx translateX 6;
+  { -1.1656577 }
+  static translate.ty translateY 7;
+  { 0.074721833 }
+  static translate.tz translateZ 8;
+  { 1.91714e-16 }
+  static v visibility 9;
+  { 1 }
+}
+dagNode {
+  joint20|joint6|joint8 4 2;
+  static rotate.rx rotateX 0;
+  { 0 }
+  static rotate.ry rotateY 1;
+  { 0 }
+  static rotate.rz rotateZ 2;
+  { 0 }
+  static scale.sx scaleX 3;
+  { 1 }
+  static scale.sy scaleY 4;
+  { 1 }
+  static scale.sz scaleZ 5;
+  { 1 }
+  static translate.tx translateX 6;
+  { 5.8778694e-16 }
+  static translate.ty translateY 7;
+  { -0.0253 }
+  static translate.tz translateZ 8;
+  { -1.1603 }
+  static v visibility 9;
+  { 1 }
+}
+dagNode {
+  joint20|joint6|joint8|joint9 5 1;
+  static rotate.rx rotateX 0;
+  { 0 }
+  static rotate.ry rotateY 1;
+  { 0 }
+  static rotate.rz rotateZ 2;
+  { 0 }
+  static scale.sx scaleX 3;
+  { 1 }
+  static scale.sy scaleY 4;
+  { 1 }
+  static scale.sz scaleZ 5;
+  { 1 }
+  static translate.tx translateX 6;
+  { -0.41088155 }
+  static translate.ty translateY 7;
+  { 0.50186322 }
+  static translate.tz translateZ 8;
+  { 3.5796539e-16 }
+  static v visibility 9;
+  { 1 }
+}
+dagNode {
+  joint20|joint6|joint8|joint11 5 1;
+  static rotate.rx rotateX 0;
+  { 0 }
+  static rotate.ry rotateY 1;
+  { 0 }
+  static rotate.rz rotateZ 2;
+  { 0 }
+  static scale.sx scaleX 3;
+  { 1 }
+  static scale.sy scaleY 4;
+  { 1 }
+  static scale.sz scaleZ 5;
+  { 1 }
+  static translate.tx translateX 6;
+  { -0.66328031 }
+  static translate.ty translateY 7;
+  { 0.0410863 }
+  static translate.tz translateZ 8;
+  { 2.7049646e-16 }
+  static v visibility 9;
+  { 1 }
+}
+dagNode {
+  joint20|joint6|joint8|joint11|joint12 6 0;
+  static rotate.rx rotateX 0;
+  { 0 }
+  static rotate.ry rotateY 1;
+  { 0 }
+  static rotate.rz rotateZ 2;
+  { 0 }
+  static scale.sx scaleX 3;
+  { 1 }
+  static scale.sy scaleY 4;
+  { 1 }
+  static scale.sz scaleZ 5;
+  { 1 }
+  static translate.tx translateX 6;
+  { -0.63421948 }
+  static translate.ty translateY 7;
+  { 0.15317695 }
+  static translate.tz translateZ 8;
+  { 3.2728572e-16 }
+  static v visibility 9;
+  { 1 }
+}
