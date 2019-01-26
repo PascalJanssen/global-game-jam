@@ -29,8 +29,6 @@ public class PlayerMovementController : MonoBehaviour
     {
         if (suctionCup)
         {
-            rigidbody.useGravity = false;
-            gravityDirection = transform.forward * 9.81f;
             transform.Translate(Vector3.up * 0.5f);
             transform.Rotate(Vector3.right * -1, 90);
         }
@@ -49,20 +47,26 @@ public class PlayerMovementController : MonoBehaviour
 
         if (Input.GetButtonDown("suction") && !suctionCup)
         {
-            Debug.Log("suction on");
             suctionCup = true;
+            rigidbody.useGravity = false;
         }
         else if (Input.GetButtonDown("suction") && suctionCup)
         {
-            Debug.Log("suction off");
             suctionCup = false;
+            rigidbody.useGravity = true;
+            gravity.force = Vector3.zero;
         }
     }
 
     private void FixedUpdate()
     {
-        gravity.force = gravityDirection;
+        
         rigidbody.transform.Translate(groundMovement * Time.fixedDeltaTime);
         transform.Rotate(rotation, Space.Self);
+
+        if (suctionCup)
+        {
+            gravity.force = transform.up * -9.81f;
+        }
     }
 }
