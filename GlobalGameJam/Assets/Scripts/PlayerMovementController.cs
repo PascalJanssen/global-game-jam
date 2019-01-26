@@ -19,6 +19,7 @@ public class PlayerMovementController : MonoBehaviour
     private bool suctionCup = false;
     internal bool canWalkForward;
     internal bool canWalkBackward;
+    internal bool shocked;
 
     // Start is called before the first frame update
     void Start()
@@ -69,13 +70,21 @@ public class PlayerMovementController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        
-        rigidbody.transform.Translate(groundMovement * Time.fixedDeltaTime);
-        transform.Rotate(rotation, Space.Self);
-
-        if (suctionCup)
+        if (shocked)
         {
-            gravity.force = transform.up * -9.81f;
+            suctionCup = false;
+            rigidbody.useGravity = true;
+            gravity.force = Vector3.zero;
+        }
+        else
+        {
+            rigidbody.transform.Translate(groundMovement * Time.fixedDeltaTime);
+            transform.Rotate(rotation, Space.Self);
+
+            if (suctionCup)
+            {
+                gravity.force = transform.up * -9.81f;
+            }
         }
     }
 }
