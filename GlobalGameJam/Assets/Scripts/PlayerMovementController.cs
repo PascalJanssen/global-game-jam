@@ -17,6 +17,8 @@ public class PlayerMovementController : MonoBehaviour
 
     private bool isWalkingOnWall = false;
     private bool suctionCup = false;
+    internal bool canWalkForward;
+    internal bool canWalkBackward;
 
     // Start is called before the first frame update
     void Start()
@@ -37,11 +39,18 @@ public class PlayerMovementController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 move = Vector3.forward * Input.GetAxis("Vertical");
+
+        if ((!canWalkForward && Input.GetAxis("Vertical") > 0) || (!canWalkBackward && Input.GetAxis("Vertical") < 0))
+        {
+            groundMovement = Vector3.zero;
+        }
+        else
+        {
+            groundMovement = Vector3.forward * Input.GetAxis("Vertical") * movementSpeed;
+        }
+        
 
         float yRotation = Input.GetAxis("Horizontal") * rotationSpeed;
-
-        groundMovement = move * movementSpeed;
 
         rotation = new Vector3(0, yRotation, 0);
 
