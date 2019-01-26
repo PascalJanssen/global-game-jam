@@ -15,7 +15,7 @@ public class WalkableWall : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.CompareTag("walkable"))
+        if (other.CompareTag("walkable") || other.CompareTag("ground"))
         {
             Debug.Log("triggered");
             controller.WallIsWalkable(other);
