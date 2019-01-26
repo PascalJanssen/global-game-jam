@@ -1,0 +1,11 @@
+atomVersion 1.0;
+mayaVersion 2018;
+mayaSceneFile C:/Users/mulle/Documents/GitHub/global-game-jam/GlobalGameJam/Assets/Models/NPC_KingBear/NPC_Oli.mb;
+timeUnit film;
+linearUnit cm;
+angularUnit deg;
+startTime 1;
+endTime 25;
+dagNode {
+  bear_body1 3 9;
+}
