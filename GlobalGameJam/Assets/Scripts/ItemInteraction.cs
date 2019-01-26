@@ -50,6 +50,7 @@ public class ItemInteraction : MonoBehaviour
                 itemHold.transform.position = itemHoldPlace.position;
                 itemHold.GetComponent<Rigidbody>().useGravity = false;
                 itemIsHolding = true;
+                grabUI.SetActive(false);
             }
         }
     }
@@ -72,8 +73,7 @@ public class ItemInteraction : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        dropable = true;
-        if ((other.transform.position - transform.position).sqrMagnitude < 0.5f)
+        if (!other.CompareTag("ground"))
         {
             dropable = false;
         }
@@ -105,5 +105,6 @@ public class ItemInteraction : MonoBehaviour
                 grabUI.SetActive(false);
             }
         }
+        dropable = true;
     }
 }
