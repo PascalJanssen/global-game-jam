@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 468c7f9707ee42f489551540e89cde82
+guid: 81b2080b7f898d04f8c4c655b5e2edb9
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -203,7 +203,6 @@ ModelImporter:
     13700018: pSphere5
     13700020: pSphere6
     13700022: r_ear 1
-    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -256,7 +255,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
+    previousCalculatedGlobalScale: 0.01
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60

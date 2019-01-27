@@ -1,0 +1,194 @@
+atomVersion 1.0;
+mayaVersion 2018;
+mayaSceneFile C:/Users/mulle/Documents/GitHub/global-game-jam/GlobalGameJam/Assets/Models/GGJ_Charactermodel/scenes/robo_GGJ.mb;
+timeUnit film;
+linearUnit cm;
+angularUnit deg;
+startTime 1;
+endTime 200;
+node {
+  l_foot_visibility 0 0;
+}
+node {
+  l_foot_translateX 0 0;
+}
+node {
+  l_foot_translateY 0 0;
+}
+node {
+  l_foot_translateZ 0 0;
+}
+node {
+  l_foot_rotateX 0 0;
+}
+node {
+  l_foot_rotateY 0 0;
+}
+node {
+  l_foot_rotateZ 0 0;
+}
+node {
+  l_foot_scaleX 0 0;
+}
+node {
+  l_foot_scaleY 0 0;
+}
+node {
+  l_foot_scaleZ 0 0;
+}
+node {
+  l_foot_scaleZ 0 0;
+}
+dagNode {
+  hip|l_leg|l_foot 4 0;
+  anim rotate.rotateX rotateX 0;
+  animData {
+    input time;
+    output angular;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0.13955818 auto auto 1 0 0;
+      6 -0.16071677 auto auto 1 0 0;
+      12 0.11106781 auto auto 1 0 0;
+      18 -0.12001784 auto auto 1 0 0;
+      24 0.13955818 fixed fixed 1 0 0 0 1 0 1;
+    }
+  }
+  anim rotate.rotateY rotateY 1;
+  animData {
+    input time;
+    output angular;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 -0.019266119 auto auto 1 0 0;
+      6 0.068587434 auto auto 1 0 0;
+      12 -0.016481949 auto auto 1 0 0;
+      18 0.048379643 auto auto 1 0 0;
+      24 -0.019266119 fixed fixed 1 0 0 0 1 0 1;
+    }
+  }
+  anim rotate.rotateZ rotateZ 2;
+  animData {
+    input time;
+    output angular;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 -12.626641 auto auto 1 0 0;
+      6 10.97104 auto auto 1 0 0;
+      12 -10.482607 auto auto 1 0 0;
+      18 7.5674637 auto auto 1 0 0;
+      24 -12.626641 fixed fixed 1 0 0 0 1 0 1;
+    }
+  }
+  anim visibility visibility 3;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1 spline step 1 0 0;
+      6 1 spline step 1 0 0;
+      12 1 spline step 1 0 0;
+      18 1 spline step 1 0 0;
+      24 1 fixed step 1 0 0 0 1;
+    }
+  }
+  anim translate.translateX translateX 4;
+  animData {
+    input time;
+    output linear;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0.98817147 auto auto 1 0 0;
+      6 0.98817147 auto auto 1 0 0;
+      12 0.98817147 auto auto 1 0 0;
+      18 0.98817147 auto auto 1 0 0;
+      24 0.98817147 fixed fixed 1 0 0 0 1 0 1;
+    }
+  }
+  anim translate.translateY translateY 5;
+  animData {
+    input time;
+    output linear;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 -0.022469947 auto auto 1 0 0;
+      6 -0.022469947 auto auto 1 0 0;
+      12 -0.022469947 auto auto 1 0 0;
+      18 -0.022469947 auto auto 1 0 0;
+      24 -0.022469947 fixed fixed 1 0 0 0 1 0 1;
+    }
+  }
+  anim translate.translateZ translateZ 6;
+  animData {
+    input time;
+    output linear;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 0 auto auto 1 0 0;
+      6 0 auto auto 1 0 0;
+      12 0 auto auto 1 0 0;
+      18 0 auto auto 1 0 0;
+      24 0 fixed fixed 1 0 0 0 1 0 1;
+    }
+  }
+  anim scale.scaleX scaleX 7;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1 auto auto 1 0 0;
+      6 1 auto auto 1 0 0;
+      12 1 auto auto 1 0 0;
+      18 1 auto auto 1 0 0;
+      24 1 fixed fixed 1 0 0 0 1 0 1;
+    }
+  }
+  anim scale.scaleY scaleY 8;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1 auto auto 1 0 0;
+      6 1 auto auto 1 0 0;
+      12 1 auto auto 1 0 0;
+      18 1 auto auto 1 0 0;
+      24 1 fixed fixed 1 0 0 0 1 0 1;
+    }
+  }
+  anim scale.scaleZ scaleZ 9;
+  animData {
+    input time;
+    output unitless;
+    weighted 0;
+    preInfinity constant;
+    postInfinity constant;
+    keys {
+      1 1 auto auto 1 0 0;
+      6 1 auto auto 1 0 0;
+      12 1 auto auto 1 0 0;
+      18 1 auto auto 1 0 0;
+      24 1 fixed fixed 1 0 0 0 1 0 1;
+    }
+  }
+}

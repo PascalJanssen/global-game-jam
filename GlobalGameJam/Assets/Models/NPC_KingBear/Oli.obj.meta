@@ -1,0 +1,225 @@
+fileFormatVersion: 2
+guid: d485622ef7e79fd4f8457cf06303c6d1
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup
+    100002: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2
+    100004: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2_bear_eye2
+    100006: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2_bear_mouth2
+    100008: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2_l_ear2
+    100010: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2_r_ear2
+    100012: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere13
+    100014: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere14
+    100016: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere15
+    100018: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere16
+    100020: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere17
+    100022: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere18
+    100024: //RootNode
+    400000: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup
+    400002: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2
+    400004: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2_bear_eye2
+    400006: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2_bear_mouth2
+    400008: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2_l_ear2
+    400010: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2_r_ear2
+    400012: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere13
+    400014: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere14
+    400016: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere15
+    400018: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere16
+    400020: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere17
+    400022: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere18
+    400024: //RootNode
+    2100000: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroupMat
+    2100002: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2Mat
+    2100004: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2_bear_eye2Mat
+    2100006: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2_bear_mouth2Mat
+    2100008: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2_l_ear2Mat
+    2100010: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2_r_ear2Mat
+    2100012: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere13Mat
+    2100014: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere14Mat
+    2100016: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere15Mat
+    2100018: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere16Mat
+    2100020: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere17Mat
+    2100022: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere18Mat
+    2300000: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup
+    2300002: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2
+    2300004: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2_bear_eye2
+    2300006: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2_bear_mouth2
+    2300008: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2_l_ear2
+    2300010: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2_r_ear2
+    2300012: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere13
+    2300014: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere14
+    2300016: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere15
+    2300018: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere16
+    2300020: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere17
+    2300022: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere18
+    3300000: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup
+    3300002: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2
+    3300004: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2_bear_eye2
+    3300006: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2_bear_mouth2
+    3300008: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2_l_ear2
+    3300010: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2_r_ear2
+    3300012: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere13
+    3300014: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere14
+    3300016: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere15
+    3300018: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere16
+    3300020: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere17
+    3300022: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere18
+    4300000: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup
+    4300002: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2
+    4300004: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2_bear_eye2
+    4300006: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2_bear_mouth2
+    4300008: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2_l_ear2
+    4300010: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2_r_ear2
+    4300012: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere13
+    4300014: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere14
+    4300016: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere15
+    4300018: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere16
+    4300020: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere17
+    4300022: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere18
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroupMat
+    second: {fileID: 2100012, guid: a571770296fad6345b246ff2f0dbc703, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2Mat
+    second: {fileID: 2100012, guid: a571770296fad6345b246ff2f0dbc703, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2_bear_eye2Mat
+    second: {fileID: 2100012, guid: a571770296fad6345b246ff2f0dbc703, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2_bear_mouth2Mat
+    second: {fileID: 2100012, guid: a571770296fad6345b246ff2f0dbc703, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2_l_ear2Mat
+    second: {fileID: 2100012, guid: a571770296fad6345b246ff2f0dbc703, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_bear_head2_r_ear2Mat
+    second: {fileID: 2100012, guid: a571770296fad6345b246ff2f0dbc703, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere13Mat
+    second: {fileID: 2100012, guid: a571770296fad6345b246ff2f0dbc703, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere14Mat
+    second: {fileID: 2100012, guid: a571770296fad6345b246ff2f0dbc703, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere15Mat
+    second: {fileID: 2100012, guid: a571770296fad6345b246ff2f0dbc703, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere16Mat
+    second: {fileID: 2100012, guid: a571770296fad6345b246ff2f0dbc703, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere17Mat
+    second: {fileID: 2100012, guid: a571770296fad6345b246ff2f0dbc703, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bear_body2_bear_bodySmoothProxyGroup_bear_body1SmoothProxyGroup_bear_bodySmoothProxyGroup_pSphere18Mat
+    second: {fileID: 2100012, guid: a571770296fad6345b246ff2f0dbc703, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

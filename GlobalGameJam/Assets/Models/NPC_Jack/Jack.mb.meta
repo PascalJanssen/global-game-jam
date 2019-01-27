@@ -1,117 +1,67 @@
 fileFormatVersion: 2
-guid: 22a8ab7bca3c0ea40a903b121005f940
+guid: ffe3177bf1167e1429c6799d4204adc8
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Body
-    100002: body
-    100004: head
-    100006: head 1
-    100008: hip
-    100010: l_arm
-    100012: l_arm 1
-    100014: l_elbow
-    100016: l_eze
-    100018: l_ezebrow
-    100020: l_finger1
-    100022: l_finger2
-    100024: l_foot
-    100026: l_foot 1
-    100028: l_hand
-    100030: l_hand 1
-    100032: l_leg
-    100034: l_leg 1
-    100036: Neck
-    100038: r_arm
-    100040: r_arm1
-    100042: r_elbow
-    100044: r_eze
-    100046: r_ezebrow
-    100048: r_finger1
-    100050: r_finger2
-    100052: r_foot
-    100054: r_foot 1
-    100056: r_hand
-    100058: r_hand 1
-    100060: r_leg
-    100062: r_leg 1
-    100064: //RootNode
-    400000: Body
-    400002: body
-    400004: head
-    400006: head 1
-    400008: hip
-    400010: l_arm
-    400012: l_arm 1
-    400014: l_elbow
-    400016: l_eze
-    400018: l_ezebrow
-    400020: l_finger1
-    400022: l_finger2
-    400024: l_foot
-    400026: l_foot 1
-    400028: l_hand
-    400030: l_hand 1
-    400032: l_leg
-    400034: l_leg 1
-    400036: Neck
-    400038: r_arm
-    400040: r_arm1
-    400042: r_elbow
-    400044: r_eze
-    400046: r_ezebrow
-    400048: r_finger1
-    400050: r_finger2
-    400052: r_foot
-    400054: r_foot 1
-    400056: r_hand
-    400058: r_hand 1
-    400060: r_leg
-    400062: r_leg 1
-    400064: //RootNode
+    100000: //RootNode
+    100002: joint1
+    100004: joint2
+    100006: joint3
+    100008: joint3 1
+    100010: joint6
+    100012: left
+    100014: pCone1
+    100016: pCone2
+    100018: pCube1
+    100020: pCube2
+    100022: pHelix3
+    100024: pSphere1
+    100026: pSphere2
+    100028: pSphere3
+    100030: pSphere4
+    100032: squash1Handle
+    400000: //RootNode
+    400002: joint1
+    400004: joint2
+    400006: joint3
+    400008: joint3 1
+    400010: joint6
+    400012: left
+    400014: pCone1
+    400016: pCone2
+    400018: pCube1
+    400020: pCube2
+    400022: pHelix3
+    400024: pSphere1
+    400026: pSphere2
+    400028: pSphere3
+    400030: pSphere4
+    400032: squash1Handle
+    2000000: left
     2100000: lambert1
-    2100002: lambert12
-    4300000: Body
-    4300002: r_arm1
-    4300004: r_hand
-    4300006: r_finger2
-    4300008: r_finger1
-    4300010: l_arm
-    4300012: l_hand
-    4300014: l_finger2
-    4300016: l_finger1
-    4300018: head
-    4300020: Neck
-    4300022: l_eze
-    4300024: r_eze
-    4300026: l_ezebrow
-    4300028: r_ezebrow
-    4300030: r_leg
-    4300032: r_foot
-    4300034: l_leg
-    4300036: l_foot
+    2300000: pCube1
+    2300002: pCube2
+    2300004: pHelix3
+    3300000: pCube1
+    3300002: pCube2
+    3300004: pHelix3
+    4300000: pCube1
+    4300002: pSphere1
+    4300004: pSphere4
+    4300006: pCone2
+    4300008: pSphere3
+    4300010: pCone1
+    4300012: pSphere2
+    4300014: pHelix3
+    4300016: pCube2
     7400000: Take 001
     9500000: //RootNode
-    13700000: Body
-    13700002: head
-    13700004: l_arm
-    13700006: l_eze
-    13700008: l_ezebrow
-    13700010: l_finger1
-    13700012: l_finger2
-    13700014: l_foot
-    13700016: l_hand
-    13700018: l_leg
-    13700020: Neck
-    13700022: r_arm1
-    13700024: r_eze
-    13700026: r_ezebrow
-    13700028: r_finger1
-    13700030: r_finger2
-    13700032: r_foot
-    13700034: r_hand
-    13700036: r_leg
-    2186277476908879412: ImportLogs
+    13700000: pCone1
+    13700002: pCone2
+    13700004: pSphere1
+    13700006: pSphere2
+    13700008: pSphere3
+    13700010: pSphere4
   externalObjects: {}
   materials:
     importMaterials: 1

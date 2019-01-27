@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: a3b1eba18179b0f4cbc27a4c1afd071d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Body
+    100002: Body_Head
+    100004: Body_l_eye
+    100006: Body_l_eye_r_eye
+    100008: Body_l_eyebrow
+    100010: Body_l_eyebrow_r_eyebrow
+    100012: Body_l_foot
+    100014: Body_l_foot_r_foot
+    100016: Body_Neck
+    100018: Body_Neck_l_arm
+    100020: Body_Neck_l_arm_l_hand
+    100022: Body_Neck_l_arm_l_hand_l_finger1
+    100024: Body_Neck_l_arm_l_hand_l_finger2
+    100026: Body_Neck_l_leg
+    100028: Body_Neck_r_arm
+    100030: Body_Neck_r_arm_r_hand
+    100032: Body_Neck_r_arm_r_hand_r_finger1
+    100034: Body_Neck_r_arm_r_hand_r_finger2
+    100036: Body_Neck_r_leg
+    100038: //RootNode
+    400000: Body
+    400002: Body_Head
+    400004: Body_l_eye
+    400006: Body_l_eye_r_eye
+    400008: Body_l_eyebrow
+    400010: Body_l_eyebrow_r_eyebrow
+    400012: Body_l_foot
+    400014: Body_l_foot_r_foot
+    400016: Body_Neck
+    400018: Body_Neck_l_arm
+    400020: Body_Neck_l_arm_l_hand
+    400022: Body_Neck_l_arm_l_hand_l_finger1
+    400024: Body_Neck_l_arm_l_hand_l_finger2
+    400026: Body_Neck_l_leg
+    400028: Body_Neck_r_arm
+    400030: Body_Neck_r_arm_r_hand
+    400032: Body_Neck_r_arm_r_hand_r_finger1
+    400034: Body_Neck_r_arm_r_hand_r_finger2
+    400036: Body_Neck_r_leg
+    400038: //RootNode
+    2100000: BodyMat
+    2100002: Body_HeadMat
+    2100004: Body_l_eyeMat
+    2100006: Body_l_eye_r_eyeMat
+    2100008: Body_l_eyebrowMat
+    2100010: Body_l_eyebrow_r_eyebrowMat
+    2100012: Body_l_footMat
+    2100014: Body_l_foot_r_footMat
+    2100016: Body_NeckMat
+    2100018: Body_Neck_l_armMat
+    2100020: Body_Neck_l_arm_l_handMat
+    2100022: Body_Neck_l_arm_l_hand_l_finger1Mat
+    2100024: Body_Neck_l_arm_l_hand_l_finger2Mat
+    2100026: Body_Neck_l_legMat
+    2100028: Body_Neck_r_armMat
+    2100030: Body_Neck_r_arm_r_handMat
+    2100032: Body_Neck_r_arm_r_hand_r_finger1Mat
+    2100034: Body_Neck_r_arm_r_hand_r_finger2Mat
+    2100036: Body_Neck_r_legMat
+    2300000: Body
+    2300002: Body_Head
+    2300004: Body_l_eye
+    2300006: Body_l_eye_r_eye
+    2300008: Body_l_eyebrow
+    2300010: Body_l_eyebrow_r_eyebrow
+    2300012: Body_l_foot
+    2300014: Body_l_foot_r_foot
+    2300016: Body_Neck
+    2300018: Body_Neck_l_arm
+    2300020: Body_Neck_l_arm_l_hand
+    2300022: Body_Neck_l_arm_l_hand_l_finger1
+    2300024: Body_Neck_l_arm_l_hand_l_finger2
+    2300026: Body_Neck_l_leg
+    2300028: Body_Neck_r_arm
+    2300030: Body_Neck_r_arm_r_hand
+    2300032: Body_Neck_r_arm_r_hand_r_finger1
+    2300034: Body_Neck_r_arm_r_hand_r_finger2
+    2300036: Body_Neck_r_leg
+    3300000: Body
+    3300002: Body_Head
+    3300004: Body_l_eye
+    3300006: Body_l_eye_r_eye
+    3300008: Body_l_eyebrow
+    3300010: Body_l_eyebrow_r_eyebrow
+    3300012: Body_l_foot
+    3300014: Body_l_foot_r_foot
+    3300016: Body_Neck
+    3300018: Body_Neck_l_arm
+    3300020: Body_Neck_l_arm_l_hand
+    3300022: Body_Neck_l_arm_l_hand_l_finger1
+    3300024: Body_Neck_l_arm_l_hand_l_finger2
+    3300026: Body_Neck_l_leg
+    3300028: Body_Neck_r_arm
+    3300030: Body_Neck_r_arm_r_hand
+    3300032: Body_Neck_r_arm_r_hand_r_finger1
+    3300034: Body_Neck_r_arm_r_hand_r_finger2
+    3300036: Body_Neck_r_leg
+    4300000: Body
+    4300002: Body_Head
+    4300004: Body_l_eye
+    4300006: Body_l_eye_r_eye
+    4300008: Body_l_eyebrow
+    4300010: Body_l_eyebrow_r_eyebrow
+    4300012: Body_l_foot
+    4300014: Body_l_foot_r_foot
+    4300016: Body_Neck
+    4300018: Body_Neck_l_arm
+    4300020: Body_Neck_l_arm_l_hand
+    4300022: Body_Neck_l_arm_l_hand_l_finger1
+    4300024: Body_Neck_l_arm_l_hand_l_finger2
+    4300026: Body_Neck_l_leg
+    4300028: Body_Neck_r_arm
+    4300030: Body_Neck_r_arm_r_hand
+    4300032: Body_Neck_r_arm_r_hand_r_finger1
+    4300034: Body_Neck_r_arm_r_hand_r_finger2
+    4300036: Body_Neck_r_leg
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

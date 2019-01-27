@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: 22a8ab7bca3c0ea40a903b121005f940
+guid: 6f4e67fd654f1004ca090935bcb4c575
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: Body
     100002: body
-    100004: head
-    100006: head 1
-    100008: hip
-    100010: l_arm
-    100012: l_arm 1
-    100014: l_elbow
-    100016: l_eze
-    100018: l_ezebrow
-    100020: l_finger1
-    100022: l_finger2
-    100024: l_foot
-    100026: l_foot 1
+    100004: //RootNode
+    100006: head
+    100008: head 1
+    100010: hip
+    100012: l_arm
+    100014: l_arm 1
+    100016: l_elbow
+    100018: l_eze
+    100020: l_ezebrow
+    100022: l_finger1
+    100024: l_finger2
+    100026: l_foot
     100028: l_hand
     100030: l_hand 1
     100032: l_leg
@@ -30,26 +30,24 @@ ModelImporter:
     100048: r_finger1
     100050: r_finger2
     100052: r_foot
-    100054: r_foot 1
-    100056: r_hand
-    100058: r_hand 1
-    100060: r_leg
-    100062: r_leg 1
-    100064: //RootNode
+    100054: r_hand
+    100056: r_hand 1
+    100058: r_leg
+    100060: r_leg 1
     400000: Body
     400002: body
-    400004: head
-    400006: head 1
-    400008: hip
-    400010: l_arm
-    400012: l_arm 1
-    400014: l_elbow
-    400016: l_eze
-    400018: l_ezebrow
-    400020: l_finger1
-    400022: l_finger2
-    400024: l_foot
-    400026: l_foot 1
+    400004: //RootNode
+    400006: head
+    400008: head 1
+    400010: hip
+    400012: l_arm
+    400014: l_arm 1
+    400016: l_elbow
+    400018: l_eze
+    400020: l_ezebrow
+    400022: l_finger1
+    400024: l_finger2
+    400026: l_foot
     400028: l_hand
     400030: l_hand 1
     400032: l_leg
@@ -63,12 +61,10 @@ ModelImporter:
     400048: r_finger1
     400050: r_finger2
     400052: r_foot
-    400054: r_foot 1
-    400056: r_hand
-    400058: r_hand 1
-    400060: r_leg
-    400062: r_leg 1
-    400064: //RootNode
+    400054: r_hand
+    400056: r_hand 1
+    400058: r_leg
+    400060: r_leg 1
     2100000: lambert1
     2100002: lambert12
     4300000: Body
@@ -164,7 +160,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
+    previousCalculatedGlobalScale: 0.01
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60

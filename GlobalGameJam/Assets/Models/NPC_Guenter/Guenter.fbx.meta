@@ -1,117 +1,97 @@
 fileFormatVersion: 2
-guid: 22a8ab7bca3c0ea40a903b121005f940
+guid: 2d6f815e1512e6045bfbd3320058a9da
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Body
-    100002: body
-    100004: head
-    100006: head 1
-    100008: hip
-    100010: l_arm
-    100012: l_arm 1
-    100014: l_elbow
-    100016: l_eze
-    100018: l_ezebrow
-    100020: l_finger1
-    100022: l_finger2
-    100024: l_foot
-    100026: l_foot 1
-    100028: l_hand
-    100030: l_hand 1
-    100032: l_leg
-    100034: l_leg 1
-    100036: Neck
-    100038: r_arm
-    100040: r_arm1
-    100042: r_elbow
-    100044: r_eze
-    100046: r_ezebrow
-    100048: r_finger1
-    100050: r_finger2
-    100052: r_foot
-    100054: r_foot 1
-    100056: r_hand
-    100058: r_hand 1
-    100060: r_leg
-    100062: r_leg 1
-    100064: //RootNode
-    400000: Body
-    400002: body
-    400004: head
-    400006: head 1
-    400008: hip
-    400010: l_arm
-    400012: l_arm 1
-    400014: l_elbow
-    400016: l_eze
-    400018: l_ezebrow
-    400020: l_finger1
-    400022: l_finger2
-    400024: l_foot
-    400026: l_foot 1
-    400028: l_hand
-    400030: l_hand 1
-    400032: l_leg
-    400034: l_leg 1
-    400036: Neck
-    400038: r_arm
-    400040: r_arm1
-    400042: r_elbow
-    400044: r_eze
-    400046: r_ezebrow
-    400048: r_finger1
-    400050: r_finger2
-    400052: r_foot
-    400054: r_foot 1
-    400056: r_hand
-    400058: r_hand 1
-    400060: r_leg
-    400062: r_leg 1
-    400064: //RootNode
+    100000: //RootNode
+    100002: Guenter
+    100004: horn
+    100006: joint1
+    100008: joint10
+    100010: joint10 1
+    100012: joint11
+    100014: joint12
+    100016: joint2
+    100018: joint3
+    100020: joint4
+    100022: joint5
+    100024: joint6
+    100026: joint7
+    100028: joint8
+    100030: l_eye
+    100032: l_finne
+    100034: l_flosse
+    100036: Monokel
+    100038: pSphere3
+    100040: pSphere4
+    100042: pSphere5
+    100044: pSphere6
+    100046: pSphere7
+    100048: pSphere8
+    100050: pSphere9
+    100052: r_eye
+    100054: r_finne
+    100056: r_flosse
+    100058: Zylinder
+    400000: Guenter
+    400002: //RootNode
+    400004: horn
+    400006: joint1
+    400008: joint10
+    400010: joint10 1
+    400012: joint11
+    400014: joint12
+    400016: joint2
+    400018: joint3
+    400020: joint4
+    400022: joint5
+    400024: joint6
+    400026: joint7
+    400028: joint8
+    400030: l_eye
+    400032: l_finne
+    400034: l_flosse
+    400036: Monokel
+    400038: pSphere3
+    400040: pSphere4
+    400042: pSphere5
+    400044: pSphere6
+    400046: pSphere7
+    400048: pSphere8
+    400050: pSphere9
+    400052: r_eye
+    400054: r_finne
+    400056: r_flosse
+    400058: Zylinder
     2100000: lambert1
-    2100002: lambert12
-    4300000: Body
-    4300002: r_arm1
-    4300004: r_hand
-    4300006: r_finger2
-    4300008: r_finger1
-    4300010: l_arm
-    4300012: l_hand
-    4300014: l_finger2
-    4300016: l_finger1
-    4300018: head
-    4300020: Neck
-    4300022: l_eze
-    4300024: r_eze
-    4300026: l_ezebrow
-    4300028: r_ezebrow
-    4300030: r_leg
-    4300032: r_foot
-    4300034: l_leg
-    4300036: l_foot
+    4300000: Guenter
+    4300002: r_eye
+    4300004: l_eye
+    4300006: horn
+    4300008: Zylinder
+    4300010: Monokel
+    4300012: pSphere3
+    4300014: pSphere9
+    4300016: pSphere8
+    4300018: pSphere7
+    4300020: pSphere6
+    4300022: pSphere5
+    4300024: pSphere4
     7400000: Take 001
     9500000: //RootNode
-    13700000: Body
-    13700002: head
-    13700004: l_arm
-    13700006: l_eze
-    13700008: l_ezebrow
-    13700010: l_finger1
-    13700012: l_finger2
-    13700014: l_foot
-    13700016: l_hand
-    13700018: l_leg
-    13700020: Neck
-    13700022: r_arm1
-    13700024: r_eze
-    13700026: r_ezebrow
-    13700028: r_finger1
-    13700030: r_finger2
-    13700032: r_foot
-    13700034: r_hand
-    13700036: r_leg
-    2186277476908879412: ImportLogs
+    13700000: Guenter
+    13700002: horn
+    13700004: l_eye
+    13700006: Monokel
+    13700008: pSphere3
+    13700010: pSphere4
+    13700012: pSphere5
+    13700014: pSphere6
+    13700016: pSphere7
+    13700018: pSphere8
+    13700020: pSphere9
+    13700022: r_eye
+    13700024: Zylinder
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -164,7 +144,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
+    previousCalculatedGlobalScale: 0.01
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
